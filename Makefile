@@ -1,4 +1,4 @@
-PKGNAME=nagios-plugins-eudat-gitlab
+PKGNAME=argo-probe-eudat-gitlab
 SPECFILE=${PKGNAME}.spec
 FILES=check_gitlab_liveness.sh ${SPECFILE}
 
