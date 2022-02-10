@@ -2,6 +2,8 @@ PKGNAME=nagios-plugins-eudat-gitlab
 SPECFILE=${PKGNAME}.spec
 FILES=check_gitlab_liveness.sh ${SPECFILE}
 
+
+
 PKGVERSION=$(shell grep -s '^Version:' $(SPECFILE) | sed -e 's/Version:\s*//')
 
 srpm: dist
