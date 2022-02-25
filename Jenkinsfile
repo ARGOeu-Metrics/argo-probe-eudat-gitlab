@@ -11,7 +11,7 @@ pipeline {
 
     }
     stages {
-        stage ('Build'){
+        stage ('Build Packages'){
             parallel {
                 stage ('Build Centos 6') {
                     agent {
